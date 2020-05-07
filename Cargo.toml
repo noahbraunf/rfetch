@@ -1,0 +1,20 @@
+[package]
+name = "rfetch"
+version = "0.0.1"
+authors = ["Noah Braunfeld <noahbraunfeld@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { git = "https://github.com/clap-rs/clap/" }
+ansi_term = "0.12"
+heim = { git = "https://github.com/heim-rs/heim/", features = ["full", "runtime-async-std"] }
+futures = "~0.3"
+futures-timer = "~3"
+cfg-if = "~0.1"
+async-std = { version = "1.5", features = ["std", "attributes"] } 
+raw-cpuid = "8.0"
+prettytable-rs = "0.8"
+humantime = { path = "repos/humantime" }
+
