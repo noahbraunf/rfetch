@@ -16,5 +16,7 @@ cfg-if = "~0.1"
 async-std = { version = "1.5", features = ["std", "attributes"] } 
 raw-cpuid = "8.0"
 prettytable-rs = "0.8"
+unicode-segmentation = "1.6"
+metal = "0.18"
 humantime = { path = "repos/humantime" }
 
